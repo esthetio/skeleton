@@ -1,0 +1,49 @@
+{
+  "name": "berrymore/esthete",
+  "description": "A frameworkless PHP application skeleton",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergei Aleinik",
+      "email": "kerbi.jam@yandex.ru"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/php-esthete/framework.git"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "scripts": {
+    "check": [
+      "phpcs --standard=PSR12 src",
+      "phpstan analyse src --level=8"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "php-di/php-di": "^6.3",
+    "symfony/routing": "^6.0",
+    "symfony/config": "^6.0",
+    "symfony/yaml": "^6.0",
+    "symfony/property-access": "^6.0",
+    "laminas/laminas-config-aggregator": "^1.7",
+    "m1/env": "^2.2",
+    "spiral/roadrunner": "^2.7",
+    "nyholm/psr7": "^1.4",
+    "symfony/psr-http-message-bridge": "^2.1",
+    "esthete/framework": "dev-master"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "phpstan/phpstan": "^1.2",
+    "roave/security-advisories": "dev-latest"
+  }
+}

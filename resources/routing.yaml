@@ -1,0 +1,4 @@
+web_index_index:
+  path: /
+  methods: GET
+  controller: App\Web\Controller\Index\Actions\IndexAction

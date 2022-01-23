@@ -1,0 +1,11 @@
+server:
+  command: "php ./worker/http.php"
+
+http:
+  address: 0.0.0.0:8080
+  pool:
+    num_workers: 4
+  middleware:
+    - static
+  static:
+    dir: "./public"
