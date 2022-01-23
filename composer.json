@@ -1,6 +1,6 @@
 {
-  "name": "berrymore/esthete",
-  "description": "A frameworkless PHP application skeleton",
+  "name": "esthete/skeleton",
+  "description": "PHP project skeleton based on Esthete framework",
   "type": "project",
   "license": "MIT",
   "authors": [
