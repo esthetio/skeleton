@@ -9,12 +9,6 @@
       "email": "kerbi.jam@yandex.ru"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/esthetio/framework.git"
-    }
-  ],
   "require": {
     "php": "^8.1",
     "php-di/php-di": "^6.3",

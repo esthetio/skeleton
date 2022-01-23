@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7364d77af15d5f9e815925266cc40872",
+    "content-hash": "7dda0ea22695bbb81b30151520306228",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -136,12 +136,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/esthetio/framework.git",
-                "reference": "992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e"
+                "reference": "342600e30c30a78301b2d64f99eec31a17ecf171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/esthetio/framework/zipball/992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e",
-                "reference": "992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e",
+                "url": "https://api.github.com/repos/esthetio/framework/zipball/342600e30c30a78301b2d64f99eec31a17ecf171",
+                "reference": "342600e30c30a78301b2d64f99eec31a17ecf171",
                 "shasum": ""
             },
             "require": {
@@ -164,11 +164,6 @@
             },
             "default-branch": true,
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "master"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Esthetio\\Config\\": "src/Config/src",
@@ -177,20 +172,7 @@
                     "Esthetio\\Http\\": "src/Http/src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Esthetio\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "check-cs": [
-                    "phpcs --standard=PSR12 src",
-                    "phpstan analyse src --level=8"
-                ],
-                "run-tests": [
-                    "phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -202,10 +184,10 @@
             ],
             "description": "PHP Framework based mainly on Symfony packages for modern application development",
             "support": {
-                "source": "https://github.com/esthetio/framework/tree/master",
-                "issues": "https://github.com/esthetio/framework/issues"
+                "issues": "https://github.com/esthetio/framework/issues",
+                "source": "https://github.com/esthetio/framework/tree/master"
             },
-            "time": "2022-01-23T18:11:33+00:00"
+            "time": "2022-01-23T19:00:56+00:00"
         },
         {
             "name": "laminas/laminas-config-aggregator",
