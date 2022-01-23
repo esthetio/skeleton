@@ -1,6 +1,6 @@
 {
   "name": "esthete/skeleton",
-  "description": "PHP project skeleton based on Esthete framework",
+  "description": "PHP project boilerplate shipped with Esthetio framework",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -12,21 +12,9 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/php-esthete/framework.git"
+      "url": "https://github.com/esthetio/framework.git"
     }
   ],
-  "minimum-stability": "stable",
-  "autoload": {
-    "psr-4": {
-      "App\\": "src"
-    }
-  },
-  "scripts": {
-    "check": [
-      "phpcs --standard=PSR12 src",
-      "phpstan analyse src --level=8"
-    ]
-  },
   "require": {
     "php": "^8.1",
     "php-di/php-di": "^6.3",
@@ -39,11 +27,27 @@
     "spiral/roadrunner": "^2.7",
     "nyholm/psr7": "^1.4",
     "symfony/psr-http-message-bridge": "^2.1",
-    "esthete/framework": "dev-master"
+    "esthetio/framework": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6",
     "phpstan/phpstan": "^1.2",
     "roave/security-advisories": "dev-latest"
-  }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "scripts": {
+    "check": [
+      "phpcs --standard=PSR12 src",
+      "phpstan analyse src --level=8"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App\Kernel\Providers;
 
 use DI\ContainerBuilder;
-use Esthete\Config\Config;
-use Esthete\Config\ConfigImpl;
+use Esthetio\Config\Config;
+use Esthetio\Config\ConfigImpl;
 use Psr\Container\ContainerInterface;
 
 final class ConfigServiceProvider

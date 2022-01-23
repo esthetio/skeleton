@@ -6,7 +6,7 @@ namespace App\Kernel\Http;
 
 use App\Kernel\Http\Middleware\AddCookiesToResponse;
 use App\Kernel\Http\Middleware\ExecuteController;
-use Esthete\Http\AbstractKernel;
+use Esthetio\Http\AbstractKernel;
 use Psr\Container\ContainerInterface;
 
 class Kernel extends AbstractKernel

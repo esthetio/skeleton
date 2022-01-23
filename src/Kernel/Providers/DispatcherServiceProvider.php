@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace App\Kernel\Providers;
 
 use DI\ContainerBuilder;
-use Esthete\Config\Config;
-use Esthete\Dispatcher\ArgumentResolver;
-use Esthete\Dispatcher\ControllerFactory;
-use Esthete\Dispatcher\Dispatcher;
-use Esthete\Dispatcher\DispatcherImpl;
-use Esthete\Dispatcher\Invoker;
-use Esthete\Dispatcher\ResponseFactory;
+use Esthetio\Config\Config;
+use Esthetio\Dispatcher\ArgumentResolver;
+use Esthetio\Dispatcher\ControllerFactory;
+use Esthetio\Dispatcher\Dispatcher;
+use Esthetio\Dispatcher\DispatcherImpl;
+use Esthetio\Dispatcher\Invoker;
+use Esthetio\Dispatcher\ResponseFactory;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 

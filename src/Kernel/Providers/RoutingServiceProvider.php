@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Kernel\Providers;
 
 use DI\ContainerBuilder;
-use Esthete\Config\Config;
+use Esthetio\Config\Config;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Routing\Loader\YamlFileLoader;

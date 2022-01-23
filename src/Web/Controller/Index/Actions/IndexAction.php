@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Web\Controller\Index\Actions;
 
-use Esthete\Dispatcher\Attribute\RequestParam;
+use Esthetio\Dispatcher\Attribute\RequestParam;
 
 final class IndexAction
 {

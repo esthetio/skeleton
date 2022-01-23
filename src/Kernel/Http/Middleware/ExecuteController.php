@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace App\Kernel\Http\Middleware;
 
-use Esthete\Dispatcher\Dispatcher;
-use Esthete\Http\Middleware\MiddlewareInterface;
-use Esthete\Http\Middleware\StackInterface;
+use Esthetio\Dispatcher\Dispatcher;
+use Esthetio\Http\Middleware\MiddlewareInterface;
+use Esthetio\Http\Middleware\StackInterface;
 use InvalidArgumentException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,12 +18,12 @@ final class ExecuteController implements MiddlewareInterface
     /** @var \Symfony\Component\Routing\RouterInterface */
     private RouterInterface $router;
 
-    /** @var \Esthete\Dispatcher\Dispatcher */
+    /** @var \Esthetio\Dispatcher\Dispatcher */
     private Dispatcher $dispatcher;
 
     /**
      * @param  \Symfony\Component\Routing\RouterInterface  $router
-     * @param  \Esthete\Dispatcher\Dispatcher              $dispatcher
+     * @param  \Esthetio\Dispatcher\Dispatcher              $dispatcher
      */
     public function __construct(RouterInterface $router, Dispatcher $dispatcher)
     {

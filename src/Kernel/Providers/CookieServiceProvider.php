@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App\Kernel\Providers;
 
 use DI\ContainerBuilder;
-use Esthete\Cookie\CookieJar;
-use Esthete\Cookie\CookieJarImpl;
+use Esthetio\Cookie\CookieJar;
+use Esthetio\Cookie\CookieJarImpl;
 
 final class CookieServiceProvider
 {

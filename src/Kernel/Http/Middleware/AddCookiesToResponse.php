@@ -4,19 +4,19 @@ declare(strict_types=1);
 
 namespace App\Kernel\Http\Middleware;
 
-use Esthete\Cookie\CookieJar;
-use Esthete\Http\Middleware\MiddlewareInterface;
-use Esthete\Http\Middleware\StackInterface;
+use Esthetio\Cookie\CookieJar;
+use Esthetio\Http\Middleware\MiddlewareInterface;
+use Esthetio\Http\Middleware\StackInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 final class AddCookiesToResponse implements MiddlewareInterface
 {
-    /** @var \Esthete\Cookie\CookieJar */
+    /** @var \Esthetio\Cookie\CookieJar */
     private CookieJar $cookieJar;
 
     /**
-     * @param  \Esthete\Cookie\CookieJar  $cookie
+     * @param  \Esthetio\Cookie\CookieJar  $cookie
      */
     public function __construct(CookieJar $cookie)
     {

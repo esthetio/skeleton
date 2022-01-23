@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6517ae43ca76390911bf6ac9ca5c1458",
+    "content-hash": "7364d77af15d5f9e815925266cc40872",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -131,17 +131,17 @@
             "time": "2022-01-04T09:57:54+00:00"
         },
         {
-            "name": "esthete/framework",
+            "name": "esthetio/framework",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-esthete/framework.git",
-                "reference": "29c3b6db321b893b44cc6996dfd793958934037a"
+                "url": "https://github.com/esthetio/framework.git",
+                "reference": "992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-esthete/framework/zipball/29c3b6db321b893b44cc6996dfd793958934037a",
-                "reference": "29c3b6db321b893b44cc6996dfd793958934037a",
+                "url": "https://api.github.com/repos/esthetio/framework/zipball/992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e",
+                "reference": "992d03386d0b96f7a9c5ab3c8016437ea7c7fe7e",
                 "shasum": ""
             },
             "require": {
@@ -151,10 +151,10 @@
                 "symfony/serializer": "^6.0"
             },
             "replace": {
-                "esthete/config": "self.version",
-                "esthete/cookie": "self.version",
-                "esthete/dispatcher": "self.version",
-                "esthete/http": "self.version"
+                "esthetio/config": "self.version",
+                "esthetio/cookie": "self.version",
+                "esthetio/dispatcher": "self.version",
+                "esthetio/http": "self.version"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.2",
@@ -171,15 +171,15 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Esthete\\Config\\": "src/Config/src",
-                    "Esthete\\Cookie\\": "src/Cookie/src",
-                    "Esthete\\Dispatcher\\": "src/Dispatcher/src",
-                    "Esthete\\Http\\": "src/Http/src"
+                    "Esthetio\\Config\\": "src/Config/src",
+                    "Esthetio\\Cookie\\": "src/Cookie/src",
+                    "Esthetio\\Dispatcher\\": "src/Dispatcher/src",
+                    "Esthetio\\Http\\": "src/Http/src"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "Esthete\\Tests\\": "tests/"
+                    "Esthetio\\Tests\\": "tests/"
                 }
             },
             "scripts": {
@@ -200,12 +200,12 @@
                     "email": "kerbi.jam@yandex.ru"
                 }
             ],
-            "description": "The Esthete PHP framework",
+            "description": "PHP Framework based mainly on Symfony packages for modern application development",
             "support": {
-                "source": "https://github.com/php-esthete/framework/tree/master",
-                "issues": "https://github.com/php-esthete/framework/issues"
+                "source": "https://github.com/esthetio/framework/tree/master",
+                "issues": "https://github.com/esthetio/framework/issues"
             },
-            "time": "2022-01-23T17:19:01+00:00"
+            "time": "2022-01-23T18:11:33+00:00"
         },
         {
             "name": "laminas/laminas-config-aggregator",
@@ -3667,10 +3667,10 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "esthete/framework": 20,
+        "esthetio/framework": 20,
         "roave/security-advisories": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1"
