@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dda0ea22695bbb81b30151520306228",
+    "content-hash": "7364d77af15d5f9e815925266cc40872",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -136,12 +136,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/esthetio/framework.git",
-                "reference": "342600e30c30a78301b2d64f99eec31a17ecf171"
+                "reference": "31f94301cff85752a2c3ffa1e8339d4691f4a5a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/esthetio/framework/zipball/342600e30c30a78301b2d64f99eec31a17ecf171",
-                "reference": "342600e30c30a78301b2d64f99eec31a17ecf171",
+                "url": "https://api.github.com/repos/esthetio/framework/zipball/31f94301cff85752a2c3ffa1e8339d4691f4a5a3",
+                "reference": "31f94301cff85752a2c3ffa1e8339d4691f4a5a3",
                 "shasum": ""
             },
             "require": {
@@ -172,7 +172,20 @@
                     "Esthetio\\Http\\": "src/Http/src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Esthetio\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "check-cs": [
+                    "phpcs --standard=PSR12 src",
+                    "phpstan analyse src --level=8"
+                ],
+                "run-tests": [
+                    "phpunit"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -184,10 +197,10 @@
             ],
             "description": "PHP Framework based mainly on Symfony packages for modern application development",
             "support": {
-                "issues": "https://github.com/esthetio/framework/issues",
-                "source": "https://github.com/esthetio/framework/tree/master"
+                "source": "https://github.com/esthetio/framework/tree/master",
+                "issues": "https://github.com/esthetio/framework/issues"
             },
-            "time": "2022-01-23T19:00:56+00:00"
+            "time": "2022-01-23T19:17:15+00:00"
         },
         {
             "name": "laminas/laminas-config-aggregator",
