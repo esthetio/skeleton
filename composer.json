@@ -1,6 +1,6 @@
 {
-  "name": "esthete/skeleton",
-  "description": "PHP project boilerplate shipped with Esthetio framework",
+  "name": "esthetio/skeleton",
+  "description": "The PHP project boilerplate based on Esthetio framework",
   "type": "project",
   "license": "MIT",
   "authors": [
