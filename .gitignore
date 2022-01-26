@@ -1,7 +1,15 @@
-/.idea/
-/vendor/
-/var/
+/.idea
+/.vscode
 
-/.env
-/rr
-/*.cache
+.DS_Store
+Thumbs.db
+
+/vendor
+/var
+
+.env
+rr
+.phpunit.result.cache
+composer.phar
+composer.lock
+coverage.xml
