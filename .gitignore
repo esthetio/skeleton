@@ -13,3 +13,4 @@ rr
 composer.phar
 composer.lock
 coverage.xml
+.rr.yaml

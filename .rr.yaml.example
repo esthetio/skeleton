@@ -1,5 +1,5 @@
 server:
-  command: "php ./worker/http.php"
+  command: 'php ./worker/http.php'
 
 http:
   address: 0.0.0.0:8080
@@ -8,4 +8,4 @@ http:
   middleware:
     - static
   static:
-    dir: "./public"
+    dir: './public'
