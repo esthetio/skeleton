@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-use Esthete\Dispatcher\Attribute\CookieValue;
-use Esthete\Dispatcher\Attribute\PathVariable;
-use Esthete\Dispatcher\Attribute\RequestBody;
-use Esthete\Dispatcher\Attribute\RequestFile;
-use Esthete\Dispatcher\Attribute\RequestHeader;
-use Esthete\Dispatcher\Attribute\RequestParam;
-use Esthete\Dispatcher\AttributeHandlers\CookieValueAttributeHandler;
-use Esthete\Dispatcher\AttributeHandlers\PathVariableAttributeHandler;
-use Esthete\Dispatcher\AttributeHandlers\RequestBodyAttributeHandler;
-use Esthete\Dispatcher\AttributeHandlers\RequestFileAttributeHandler;
-use Esthete\Dispatcher\AttributeHandlers\RequestHeaderAttributeHandler;
-use Esthete\Dispatcher\AttributeHandlers\RequestParamAttributeHandler;
+use Esthetio\Dispatcher\Attribute\CookieValue;
+use Esthetio\Dispatcher\Attribute\PathVariable;
+use Esthetio\Dispatcher\Attribute\RequestBody;
+use Esthetio\Dispatcher\Attribute\RequestFile;
+use Esthetio\Dispatcher\Attribute\RequestHeader;
+use Esthetio\Dispatcher\Attribute\RequestParam;
+use Esthetio\Dispatcher\AttributeHandlers\CookieValueAttributeHandler;
+use Esthetio\Dispatcher\AttributeHandlers\PathVariableAttributeHandler;
+use Esthetio\Dispatcher\AttributeHandlers\RequestBodyAttributeHandler;
+use Esthetio\Dispatcher\AttributeHandlers\RequestFileAttributeHandler;
+use Esthetio\Dispatcher\AttributeHandlers\RequestHeaderAttributeHandler;
+use Esthetio\Dispatcher\AttributeHandlers\RequestParamAttributeHandler;
 
 return [
     'dispatcher' => [
