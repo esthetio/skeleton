@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Web\Controller\Index\Actions;
+namespace App\Main\Controller\Index\Actions;
 
 use Esthetio\Dispatcher\Attribute\RequestParam;
 use Symfony\Component\Routing\Annotation\Route;

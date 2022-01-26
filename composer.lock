@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3031380cb6010456d8038854c3530ff",
+    "content-hash": "8588f0016bce6d172bbabc863cb74bef",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -3163,12 +3163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "341bf2dc38dcbc17c9cc7bd1b44c3a40c84959e0"
+                "reference": "37d822767985a5f43637dc8836da9d9360fb1286"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/341bf2dc38dcbc17c9cc7bd1b44c3a40c84959e0",
-                "reference": "341bf2dc38dcbc17c9cc7bd1b44c3a40c84959e0",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/37d822767985a5f43637dc8836da9d9360fb1286",
+                "reference": "37d822767985a5f43637dc8836da9d9360fb1286",
                 "shasum": ""
             },
             "conflict": {
@@ -3439,7 +3439,7 @@
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
                 "smarty/smarty": "<3.1.43|>=4,<4.0.3",
-                "snipe/snipe-it": "<5.3.7",
+                "snipe/snipe-it": "<=5.3.7",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spipu/html2pdf": "<5.2.4",
@@ -3600,7 +3600,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-25T09:14:18+00:00"
+            "time": "2022-01-26T21:13:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

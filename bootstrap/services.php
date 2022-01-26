@@ -1,6 +1,7 @@
 <?php
 
 return [
+    // Kernel
     \App\Kernel\Providers\ConfigServiceProvider::class,
     \App\Kernel\Providers\SerializerServiceProvider::class,
     \App\Kernel\Providers\RoutingServiceProvider::class,
